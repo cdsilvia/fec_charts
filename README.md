@@ -22,5 +22,5 @@ A simple chart subtotaling the donations candidates have received for the midter
 
 
 
-!\[Image](individual\_contributions.png)
+!\[Image](./individual\_contributions.png)
 
