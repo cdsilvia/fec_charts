@@ -12,11 +12,15 @@ Charts will have a timestamp clarifying the last time they were updated.
 
 
 
-August 2026: 
+August 2026:
 
 2026 Individual Contributions by Party
 
 
 
 A simple chart subtotaling the donations candidates have received for the midterms broken out by party. Beyond Democrats, Republicans, and Independents, I've recategorized all other parties as "Other", or the majority are not visible on the chart.
+
+
+
+!\[Image](2026 Individual Contributions by Party.png)
 
