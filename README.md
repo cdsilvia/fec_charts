@@ -22,5 +22,5 @@ A simple chart subtotaling the donations candidates have received for the midter
 
 
 
-!\[Image](https://github.com/cdsilvia/fec\_charts/blob/main/2026%20Individual%20Contributions%20by%20Party.png)
+!\[Image](individual\_contributions.png)
 
