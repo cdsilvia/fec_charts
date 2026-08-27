@@ -12,9 +12,9 @@ Charts will have a timestamp clarifying the last time they were updated.
 
 
 
-August 2026:
+## August 2026:
 
-2026 Individual Contributions by Party
+### 2026 Individual Contributions by Party
 
 
 
@@ -22,5 +22,5 @@ A simple chart subtotaling the donations candidates have received for the midter
 
 
 
-!\[Image](./individual\_contributions.png)
+![Image](individual_contributions.png)
 
