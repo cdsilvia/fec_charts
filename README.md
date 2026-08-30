@@ -12,6 +12,10 @@ Charts will have a timestamp clarifying the last time they were updated.
 
 ![Image](individual_contributions.png)
 
-## 2026 Committee Contributions to Candidates by Party
+### 2026 Committee Contributions to Candidates by Party
 
 ![Image](committee_contributions.png)
+
+### 2026 Candidate Total Receipts and Dibursements
+
+![Image](candidate_totals.png)
