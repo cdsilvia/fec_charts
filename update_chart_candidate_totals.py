@@ -39,8 +39,8 @@ ax.set_yticks([0, 250000000, 500000000, 750000000, 1000000000, 1250000000], labe
 ax.legend()
 
 try:
-    os.rename('fec_charts/candidate_totals.png', 'fec_charts/archive/candidate_totals_' + today + '.png')
+    os.rename('charts/candidate_totals.png', 'fec_charts/archive/candidate_totals_' + today + '.png')
 except:
     pass
 
-plt.savefig('fec_charts/candidate_totals.png', bbox_inches='tight', dpi=150)
+plt.savefig('charts/candidate_totals.png', bbox_inches='tight', dpi=150)

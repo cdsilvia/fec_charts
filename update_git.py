@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-os.chdir('fec_charts')
+os.chdir('charts')
 
 subprocess.run(['git', 'add', '*'])
 subprocess.run(['git', 'commit', '-m', 'Update charts'])

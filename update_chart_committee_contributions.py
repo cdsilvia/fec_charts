@@ -40,8 +40,8 @@ ax.legend()
 ax.set_yticks([0, 100000000, 200000000, 300000000], labels=['$0', '$100M', '$200M', '$300M'])
 
 try:
-    os.rename('fec_charts/committee_contributions.png', 'fec_charts/archive/committee_contributions_' + today + '.png')
+    os.rename('charts/committee_contributions.png', 'fec_charts/archive/committee_contributions_' + today + '.png')
 except:
     pass
 
-plt.savefig('fec_charts/committee_contributions.png', bbox_inches='tight', dpi=150)
+plt.savefig('charts/committee_contributions.png', bbox_inches='tight', dpi=150)

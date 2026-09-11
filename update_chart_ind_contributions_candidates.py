@@ -29,8 +29,8 @@ ax.set_ylabel('Total', fontsize=12)
 ax.set_yticks([0, 100000000, 200000000, 300000000, 400000000, 500000000], labels=['$0', '$100M', '$200M', '$300M', '$400M', '$500M'])
 
 try:
-    os.rename('fec_charts/individual_contributions.png', 'fec_charts/archive/individual_contributions_' + today + '.png')
+    os.rename('charts/individual_contributions.png', 'fec_charts/archive/individual_contributions_' + today + '.png')
 except:
     pass
 
-plt.savefig('fec_charts/individual_contributions.png', bbox_inches='tight', dpi=150)
+plt.savefig('charts/individual_contributions.png', bbox_inches='tight', dpi=150)
