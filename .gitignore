@@ -1,2 +1,5 @@
-archive/
+data/archive/
+charts/archive/
+__pycache__
 api_key.txt
+Notes.txt
