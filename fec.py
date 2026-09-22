@@ -45,6 +45,10 @@ def fec_api_pull(end_url, base_parameters, dedupe_columns, csv_name):
         current_page += 1
 
     df.drop_duplicates(subset=dedupe_columns, inplace=True)
-    os.rename('data/' + csv_name + '.csv', 'data/archive/' + csv_name + '_' + today + '.csv')
+    try:
+        os.rename('data/' + csv_name + '.csv', 'data/archive/' + csv_name + '_' + today + '.csv')
+    except:
+        pass
+    
     df.to_csv('data/' + csv_name + '.csv', index=False)
     print('Success.')

@@ -6,6 +6,6 @@ base_parameters = {
     'cycle': 2026
 }
 dedupe_columns = None
-csv_name = 'data_financial_pac_party.csv'
+csv_name = 'data_financial_pac_party'
 
 fec.fec_api_pull(end_url, base_parameters, dedupe_columns, csv_name)
